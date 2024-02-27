@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Nov  4 16:29:53 2022
+# Process ID: 20748
+# Current directory: D:/Desktop/experiment/and21/and21.runs/synth_1
+# Command line: vivado.exe -log sim_and21.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sim_and21.tcl
+# Log file: D:/Desktop/experiment/and21/and21.runs/synth_1/sim_and21.vds
+# Journal file: D:/Desktop/experiment/and21/and21.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source sim_and21.tcl -notrace

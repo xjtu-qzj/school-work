@@ -1,0 +1,12 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/Desktop/experiment/ADD/ADD.srcs/sources_1/new/ADD.v,1669350814,verilog,,D:/Desktop/experiment/ALU_8/ALU_8.srcs/sources_1/new/ALU_8.v,,ADD,,,,,,,,
+D:/Desktop/experiment/ALU_8/ALU_8.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+D:/Desktop/experiment/ALU_8/ALU_8.srcs/sim_1/new/sim_ALU_8.v,1669348999,verilog,,,,sim_ALU_8,,,,,,,,
+D:/Desktop/experiment/ALU_8/ALU_8.srcs/sources_1/new/ALU_8.v,1669349224,verilog,,D:/Desktop/experiment/SLL/SLL.srcs/sources_1/new/SLL.v,,ALU_8,,,,,,,,
+D:/Desktop/experiment/SLL/SLL.srcs/sources_1/new/SLL.v,1669350933,verilog,,D:/Desktop/experiment/SLT/SLT.srcs/sources_1/new/SLT.v,,SLL,,,,,,,,
+D:/Desktop/experiment/SLT/SLT.srcs/sources_1/new/SLT.v,1668825988,verilog,,D:/Desktop/experiment/SUB/SUB.srcs/sources_1/new/SUB.v,,SLT,,,,,,,,
+D:/Desktop/experiment/SUB/SUB.srcs/sources_1/new/SUB.v,1668825855,verilog,,D:/Desktop/experiment/decoder38/decoder38.srcs/sources_1/new/decoder38.v,,SUB,,,,,,,,
+D:/Desktop/experiment/decoder38/decoder38.srcs/sources_1/new/decoder38.v,1668218310,verilog,,D:/Desktop/experiment/ALU_8/ALU_8.srcs/sim_1/new/sim_ALU_8.v,,decoder38,,,,,,,,

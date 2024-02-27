@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Dec  3 09:36:20 2022
+# Process ID: 7324
+# Current directory: D:/Desktop/experiment/ALU_8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9396 D:\Desktop\experiment\ALU_8\ALU_8.xpr
+# Log file: D:/Desktop/experiment/ALU_8/vivado.log
+# Journal file: D:/Desktop/experiment/ALU_8\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Desktop/experiment/ALU_8/ALU_8.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source sim_ALU_8.tcl
+close_sim

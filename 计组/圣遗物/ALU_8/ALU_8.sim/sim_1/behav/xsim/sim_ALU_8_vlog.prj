@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../ADD/ADD.srcs/sources_1/new/ADD.v" \
+"../../../../ALU_8.srcs/sources_1/new/ALU_8.v" \
+"../../../../../SLL/SLL.srcs/sources_1/new/SLL.v" \
+"../../../../../SLT/SLT.srcs/sources_1/new/SLT.v" \
+"../../../../../SUB/SUB.srcs/sources_1/new/SUB.v" \
+"../../../../../decoder38/decoder38.srcs/sources_1/new/decoder38.v" \
+"../../../../ALU_8.srcs/sim_1/new/sim_ALU_8.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

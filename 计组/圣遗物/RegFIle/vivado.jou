@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Dec 27 10:24:34 2022
+# Process ID: 15496
+# Current directory: D:/Desktop/experiment/RegFIle
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2956 D:\Desktop\experiment\RegFIle\RegFIle.xpr
+# Log file: D:/Desktop/experiment/RegFIle/vivado.log
+# Journal file: D:/Desktop/experiment/RegFIle\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Desktop/experiment/RegFIle/RegFIle.xpr
+update_compile_order -fileset sources_1

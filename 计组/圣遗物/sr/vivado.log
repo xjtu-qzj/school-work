@@ -1,0 +1,59 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Nov 14 12:06:23 2022
+# Process ID: 1044
+# Current directory: D:/Desktop/experiment/sr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13932 D:\Desktop\experiment\sr\sr.xpr
+# Log file: D:/Desktop/experiment/sr/vivado.log
+# Journal file: D:/Desktop/experiment/sr\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Desktop/experiment/sr/sr.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: sr
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 872.238 ; gain = 75.883
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'sr' [D:/Desktop/experiment/sr/sr.srcs/sources_1/new/sr.v:23]
+INFO: [Synth 8-256] done synthesizing module 'sr' (1#1) [D:/Desktop/experiment/sr/sr.srcs/sources_1/new/sr.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 924.418 ; gain = 128.062
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 924.418 ; gain = 128.062
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:12 . Memory (MB): peak = 1300.539 ; gain = 504.184
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:12 . Memory (MB): peak = 1300.539 ; gain = 504.184
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 14 12:08:58 2022...

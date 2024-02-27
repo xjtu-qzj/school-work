@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Dec  4 22:37:32 2023
+# Process ID: 35252
+# Current directory: C:/Users/邱子杰/Desktop/计组/圣遗物/RAM_1Kx16_inout
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30784 C:\Users\邱子杰\Desktop\计组\圣遗物\RAM_1Kx16_inout\RAM_1Kx16_inout.xpr
+# Log file: C:/Users/邱子杰/Desktop/计组/圣遗物/RAM_1Kx16_inout/vivado.log
+# Journal file: C:/Users/邱子杰/Desktop/计组/圣遗物/RAM_1Kx16_inout\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/邱子杰/Desktop/计组/圣遗物/RAM_1Kx16_inout/RAM_1Kx16_inout.xpr
+update_compile_order -fileset sources_1

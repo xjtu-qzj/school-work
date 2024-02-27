@@ -1,0 +1,10 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/Desktop/experiment/addr_16bit/addr_16bit.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+D:/Desktop/experiment/addr_16bit/addr_16bit.srcs/sim_1/new/sim_addr_16bit.v,1668822144,verilog,,,,sim_addr_16bit,,,,,,,,
+D:/Desktop/experiment/addr_16bit/addr_16bit.srcs/sources_1/new/addr_16bit.v,1668822201,verilog,,D:/Desktop/experiment/addr_4bit/addr_4bit.srcs/sources_1/new/addr_4bit.v,,addr_16bit,,,,,,,,
+D:/Desktop/experiment/addr_4bit/addr_4bit.srcs/sources_1/new/addr_4bit.v,1668820288,verilog,,D:/Desktop/experiment/fulladder/fulladder.srcs/sources_1/new/fulladder.v,,addr_4bit,,,,,,,,
+D:/Desktop/experiment/fulladder/fulladder.srcs/sources_1/new/fulladder.v,1668819671,verilog,,D:/Desktop/experiment/halfadder/halfadder.srcs/sources_1/new/halfadder.v,,fulladder,,,,,,,,
+D:/Desktop/experiment/halfadder/halfadder.srcs/sources_1/new/halfadder.v,1668818901,verilog,,D:/Desktop/experiment/addr_16bit/addr_16bit.srcs/sim_1/new/sim_addr_16bit.v,,halfadder,,,,,,,,

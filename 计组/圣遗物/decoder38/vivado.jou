@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Nov 14 12:04:46 2022
+# Process ID: 12492
+# Current directory: D:/Desktop/experiment/decoder38
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12724 D:\Desktop\experiment\decoder38\decoder38.xpr
+# Log file: D:/Desktop/experiment/decoder38/vivado.log
+# Journal file: D:/Desktop/experiment/decoder38\vivado.jou
+#-----------------------------------------------------------
+start_guopopen_project D:/Desktop/experiment/decoder38/decoder38.xpupupdate_compile_order -fileset sources_1
+nth_design -rtl -name rtl_1

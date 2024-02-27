@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sat Nov  5 09:02:38 2022" VIVADOVERSION="2017.4">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a35t" NAME="sr" PACKAGE="cpg236" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="O" NAME="Q" SIGIS="undef" SIGNAME="nand21_1_Y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="nand21_1" PORT="Y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="nQ" SIGIS="undef" SIGNAME="nand21_3_Y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="nand21_3" PORT="Y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="S" SIGIS="undef" SIGNAME="External_Ports_S">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="nand21_0" PORT="D0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="R" SIGIS="undef" SIGNAME="External_Ports_R">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="nand21_2" PORT="D1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="C" SIGIS="undef" SIGNAME="External_Ports_C">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="nand21_0" PORT="D1"/>
+        <CONNECTION INSTANCE="nand21_2" PORT="D0"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE FULLNAME="/nand21_0" HWVERSION="1.0" INSTANCE="nand21_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="nand21" VLNV="xilinx.com:user:nand21:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="sr_nand21_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="D0" SIGIS="undef" SIGNAME="External_Ports_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D1" SIGIS="undef" SIGNAME="External_Ports_C">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="C"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y" SIGIS="undef" SIGNAME="nand21_0_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="nand21_1" PORT="D0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/nand21_1" HWVERSION="1.0" INSTANCE="nand21_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="nand21" VLNV="xilinx.com:user:nand21:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="sr_nand21_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="D0" SIGIS="undef" SIGNAME="nand21_0_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="nand21_0" PORT="Y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D1" SIGIS="undef" SIGNAME="nand21_3_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="nand21_3" PORT="Y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y" SIGIS="undef" SIGNAME="nand21_1_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Q"/>
+            <CONNECTION INSTANCE="nand21_3" PORT="D0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/nand21_2" HWVERSION="1.0" INSTANCE="nand21_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="nand21" VLNV="xilinx.com:user:nand21:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="sr_nand21_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="D0" SIGIS="undef" SIGNAME="External_Ports_C">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="C"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D1" SIGIS="undef" SIGNAME="External_Ports_R">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="R"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y" SIGIS="undef" SIGNAME="nand21_2_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="nand21_3" PORT="D1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/nand21_3" HWVERSION="1.0" INSTANCE="nand21_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="nand21" VLNV="xilinx.com:user:nand21:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="sr_nand21_3_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="D0" SIGIS="undef" SIGNAME="nand21_1_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="nand21_1" PORT="Y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D1" SIGIS="undef" SIGNAME="nand21_2_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="nand21_2" PORT="Y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y" SIGIS="undef" SIGNAME="nand21_3_Y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="nQ"/>
+            <CONNECTION INSTANCE="nand21_1" PORT="D1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Desktop/experiment/RAM_256x32bit/RAM_256x32bit.srcs/sources_1/new/RAM_256x32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_256x32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Desktop/experiment/RAM_256x32bit/RAM_256x32bit.srcs/sim_1/new/sim_RAM_256x32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_RAM_256x32bit

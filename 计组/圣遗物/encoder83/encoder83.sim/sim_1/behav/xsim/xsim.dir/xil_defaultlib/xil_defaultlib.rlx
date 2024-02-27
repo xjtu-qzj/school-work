@@ -1,0 +1,10 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/Desktop/experiment/encoder83/encoder83.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+D:/Desktop/experiment/encoder83/encoder83.srcs/sim_1/new/sim_encoder83.v,1668217529,verilog,,,,sim_encoder83,,,,,,,,
+D:/Desktop/experiment/encoder83/encoder83.srcs/sources_1/new/encoder83_assign.v,1668215712,verilog,,D:/Desktop/experiment/encoder83/encoder83.srcs/sources_1/new/encoder83_case.v,,encoder83_assign,,,,,,,,
+D:/Desktop/experiment/encoder83/encoder83.srcs/sources_1/new/encoder83_case.v,1668215958,verilog,,D:/Desktop/experiment/encoder83/encoder83.srcs/sources_1/new/pre_encoder83_case.v,,encoder83_case,,,,,,,,
+D:/Desktop/experiment/encoder83/encoder83.srcs/sources_1/new/pre_encoder83_case.v,1668217847,verilog,,D:/Desktop/experiment/encoder83/encoder83.srcs/sources_1/new/pre_encoder83_if.v,,pre_encoder83_case,,,,,,,,
+D:/Desktop/experiment/encoder83/encoder83.srcs/sources_1/new/pre_encoder83_if.v,1668216362,verilog,,D:/Desktop/experiment/encoder83/encoder83.srcs/sim_1/new/sim_encoder83.v,,pre_encoder83_if,,,,,,,,

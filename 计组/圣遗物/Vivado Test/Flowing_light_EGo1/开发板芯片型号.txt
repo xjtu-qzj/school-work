@@ -1,0 +1,4 @@
+BASYS 3开发板: xc7a35tcpg236-1
+EGo1开发板:xc7a35tcsg324-1
+
+

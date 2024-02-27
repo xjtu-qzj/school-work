@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Nov 14 17:13:53 2022
+# Process ID: 9548
+# Current directory: D:/Desktop/experiment/register
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10424 D:\Desktop\experiment\register\register.xpr
+# Log file: D:/Desktop/experiment/register/vivado.log
+# Journal file: D:/Desktop/experiment/register\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Desktop/experiment/register/register.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source sim_register.tcl
+synth_design -rtl -name rtl_1
+close_sim

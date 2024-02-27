@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Nov 12 16:40:47 2022
+# Process ID: 17076
+# Current directory: D:/Desktop/experiment/D_latch
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18248 D:\Desktop\experiment\D_latch\D_latch.xpr
+# Log file: D:/Desktop/experiment/D_latch/vivado.log
+# Journal file: D:/Desktop/experiment/D_latch\vivado.jou
+#-----------------------------------------------------------sstart_guioopen_project D:/Desktop/experiment/D_latch/D_latch.xpr
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+source sim_D_latch.tcl
+close_sim
+launch_simulation
+source sim_D_latch.tcl
+close_sim
+launch_simulation
+source sim_D_latch.tcl
+close_sim

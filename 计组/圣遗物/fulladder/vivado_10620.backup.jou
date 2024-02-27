@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Nov 19 09:39:28 2022
+# Process ID: 10620
+# Current directory: D:/Desktop/experiment/fulladder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7528 D:\Desktop\experiment\fulladder\fulladder.xpr
+# Log file: D:/Desktop/experiment/fulladder/vivado.log
+# Journal file: D:/Desktop/experiment/fulladder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Desktop/experiment/fulladder/fulladder.xpr
+update_compile_order -fileset sources_1

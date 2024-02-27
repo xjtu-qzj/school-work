@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Nov 14 12:09:02 2022
+# Process ID: 4784
+# Current directory: D:/Desktop/experiment/D_ff
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17948 D:\Desktop\experiment\D_ff\D_ff.xpr
+# Log file: D:/Desktop/experiment/D_ff/vivado.log
+# Journal file: D:/Desktop/experiment/D_ff\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Desktop/experiment/D_ff/D_ff.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source sim_D_ff.tcl
+synth_design -rtl -name rtl_1
+close_sim

@@ -1,0 +1,82 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Nov 20 16:03:44 2022
+# Process ID: 16588
+# Current directory: D:/Desktop/experiment/ALU_8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1424 D:\Desktop\experiment\ALU_8\ALU_8.xpr
+# Log file: D:/Desktop/experiment/ALU_8/vivado.log
+# Journal file: D:/Desktop/experiment/ALU_8\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Desktop/experiment/ALU_8/ALU_8.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: ALU_8
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 904.605 ; gain = 103.453
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ALU_8' [D:/Desktop/experiment/ALU_8/ALU_8.srcs/sources_1/new/ALU_8.v:23]
+	Parameter SIZE bound to: 32 - type: integer 
+	Parameter ALU_AND bound to: 4'b0000 
+	Parameter ALU_OR bound to: 4'b0001 
+	Parameter ALU_XOR bound to: 4'b0010 
+	Parameter ALU_NOR bound to: 4'b0011 
+	Parameter ALU_ADD bound to: 4'b0100 
+	Parameter ALU_SUB bound to: 4'b0101 
+	Parameter ALU_SLT bound to: 4'b0110 
+	Parameter ALU_SLL bound to: 4'b0111 
+INFO: [Synth 8-638] synthesizing module 'decoder38' [D:/Desktop/experiment/decoder38/decoder38.srcs/sources_1/new/decoder38.v:23]
+INFO: [Synth 8-256] done synthesizing module 'decoder38' (1#1) [D:/Desktop/experiment/decoder38/decoder38.srcs/sources_1/new/decoder38.v:23]
+INFO: [Synth 8-638] synthesizing module 'ADD' [D:/Desktop/experiment/ADD/ADD.srcs/sources_1/new/ADD.v:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ADD' (2#1) [D:/Desktop/experiment/ADD/ADD.srcs/sources_1/new/ADD.v:23]
+INFO: [Synth 8-638] synthesizing module 'SUB' [D:/Desktop/experiment/SUB/SUB.srcs/sources_1/new/SUB.v:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'SUB' (3#1) [D:/Desktop/experiment/SUB/SUB.srcs/sources_1/new/SUB.v:23]
+INFO: [Synth 8-638] synthesizing module 'SLT' [D:/Desktop/experiment/SLT/SLT.srcs/sources_1/new/SLT.v:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'SLT' (4#1) [D:/Desktop/experiment/SLT/SLT.srcs/sources_1/new/SLT.v:23]
+INFO: [Synth 8-638] synthesizing module 'SLL' [D:/Desktop/experiment/SLL/SLL.srcs/sources_1/new/SLL.v:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'SLL' (5#1) [D:/Desktop/experiment/SLL/SLL.srcs/sources_1/new/SLL.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ALU_8' (6#1) [D:/Desktop/experiment/ALU_8/ALU_8.srcs/sources_1/new/ALU_8.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 915.715 ; gain = 114.562
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 915.715 ; gain = 114.562
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:22 ; elapsed = 00:00:12 . Memory (MB): peak = 1312.203 ; gain = 511.051
+16 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:12 . Memory (MB): peak = 1312.203 ; gain = 511.051
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 20 23:51:04 2022...

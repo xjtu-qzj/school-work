@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1667550695">
+  <File Type="PA-TCL" Name="sim_and21.tcl"/>
+  <File Type="PWROPT-DCP" Name="sim_and21_pwropt.dcp"/>
+  <File Type="REPORTS-TCL" Name="sim_and21_reports.tcl"/>
+  <File Type="BG-DRC" Name="sim_and21.drc"/>
+  <File Type="OPT-HWDEF" Name="sim_and21.hwdef"/>
+  <File Type="OPT-DCP" Name="sim_and21_opt.dcp"/>
+  <File Type="OPT-DRC" Name="sim_and21_drc_opted.rpt"/>
+  <File Type="PLACE-DCP" Name="sim_and21_placed.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="sim_and21_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="sim_and21_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="sim_and21_physopt.dcp"/>
+  <File Type="BG-BIT" Name="sim_and21.bit"/>
+  <File Type="ROUTE-ERROR-DCP" Name="sim_and21_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="sim_and21_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="sim_and21_routed_bb.dcp"/>
+  <File Type="BITSTR-MSK" Name="sim_and21.msk"/>
+  <File Type="BG-BGN" Name="sim_and21.bgn"/>
+  <File Type="BITSTR-RBT" Name="sim_and21.rbt"/>
+  <File Type="BG-BIN" Name="sim_and21.bin"/>
+  <File Type="ROUTE-TIMING-PB" Name="sim_and21_timing_summary_routed.pb"/>
+  <File Type="RDI-RDI" Name="sim_and21.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="sim_and21_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="sim_and21_postroute_physopt_bb.dcp"/>
+  <File Type="BITSTR-NKY" Name="sim_and21.nky"/>
+  <File Type="BITSTR-BMM" Name="sim_and21_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="sim_and21.mmi"/>
+  <File Type="BITSTR-LTX" Name="sim_and21.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="sim_and21.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/and21.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sim_and21.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="sim_and21"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../Vivado Test/Decoder38_Basys3/XDC_Decoder38.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,19 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/Desktop/experiment/CPU/CPU.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+D:/Desktop/experiment/CPU/CPU.srcs/sim_1/new/sim_CPU.v,1674036197,verilog,,,,sim_CPU,,,,,,,,
+D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/ALU.v,1673107177,verilog,,D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/ALUDec.v,,ALU,,,,,,,,
+D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/ALUDec.v,1673107173,verilog,,D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/CPU.v,,ALUDec,,,,,,,,
+D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/CPU.v,1674036149,verilog,,D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/Controller.v,,CPU,,,,,,,,
+D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/Controller.v,1672731880,verilog,,D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/IMem.v,,Controller,,,,,,,,
+D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/IMem.v,1674045035,verilog,,D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/MainDec.v,,IMem,,,,,,,,
+D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/MainDec.v,1673107175,verilog,,D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/PC.v,,MainDec,,,,,,,,
+D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/PC.v,1672739524,verilog,,D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/RAM.v,,PC,,,,,,,,
+D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/RAM.v,1674040240,verilog,,D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/RegFile.v,,RAM,,,,,,,,
+D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/RegFile.v,1673234751,verilog,,D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/add_PC.v,,RegFile,,,,,,,,
+D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/add_PC.v,1672731870,verilog,,D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/ext16.v,,add_PC,,,,,,,,
+D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/ext16.v,1672731879,verilog,,D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/mux.v,,ext16,,,,,,,,
+D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/mux.v,1672730305,verilog,,D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/mux5.v,,mux,,,,,,,,
+D:/Desktop/experiment/CPU/CPU.srcs/sources_1/new/mux5.v,1672730299,verilog,,D:/Desktop/experiment/CPU/CPU.srcs/sim_1/new/sim_CPU.v,,mux5,,,,,,,,

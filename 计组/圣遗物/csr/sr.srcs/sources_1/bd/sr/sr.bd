@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<bd:repository xmlns:bd="http://www.xilinx.com/bd" bd:BoundaryCRC="0x3F1BEE6A3F1BEE6A" bd:device="xc7a35tcpg236-1" bd:isValidated="true" bd:synthFlowMode="Hierarchical" bd:tool_version="2017.4" bd:top="sr" bd:version="1.00.a">
+
+  <spirit:component xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>sr</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:parameters>
+      <spirit:parameter>
+        <spirit:name>isTop</spirit:name>
+        <spirit:value spirit:format="bool" spirit:resolve="immediate">true</spirit:value>
+      </spirit:parameter>
+    </spirit:parameters>
+    <spirit:model>
+      <spirit:views>
+        <spirit:view>
+          <spirit:name>BlockDiagram</spirit:name>
+          <spirit:envIdentifier>:vivado.xilinx.com:</spirit:envIdentifier>
+          <spirit:hierarchyRef spirit:library="BlockDiagram" spirit:name="sr_imp" spirit:vendor="xilinx.com" spirit:version="1.00.a"/>
+        </spirit:view>
+      </spirit:views>
+      <spirit:ports>
+        <spirit:port>
+          <spirit:name>Q</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>nQ</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>S</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>R</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>C</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+      </spirit:ports>
+    </spirit:model>
+  </spirit:component>
+
+  <spirit:design xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>sr_imp</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:componentInstances>
+      <spirit:componentInstance>
+        <spirit:instanceName>nand21_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="nand21" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">sr_nand21_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>nand21_1</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="nand21" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">sr_nand21_1_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>nand21_2</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="nand21" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">sr_nand21_2_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>nand21_3</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="nand21" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">sr_nand21_3_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+    </spirit:componentInstances>
+    <spirit:adHocConnections>
+      <spirit:adHocConnection>
+        <spirit:name>nand21_0_Y</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="nand21_0" spirit:portRef="Y"/>
+        <spirit:internalPortReference spirit:componentRef="nand21_1" spirit:portRef="D0"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>nand21_2_Y</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="nand21_2" spirit:portRef="Y"/>
+        <spirit:internalPortReference spirit:componentRef="nand21_3" spirit:portRef="D1"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>nand21_1_Y</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="nand21_1" spirit:portRef="Y"/>
+        <spirit:externalPortReference spirit:portRef="Q"/>
+        <spirit:internalPortReference spirit:componentRef="nand21_3" spirit:portRef="D0"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>nand21_3_Y</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="nand21_3" spirit:portRef="Y"/>
+        <spirit:externalPortReference spirit:portRef="nQ"/>
+        <spirit:internalPortReference spirit:componentRef="nand21_1" spirit:portRef="D1"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>S_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="S"/>
+        <spirit:internalPortReference spirit:componentRef="nand21_0" spirit:portRef="D0"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>R_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="R"/>
+        <spirit:internalPortReference spirit:componentRef="nand21_2" spirit:portRef="D1"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>C_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="C"/>
+        <spirit:internalPortReference spirit:componentRef="nand21_0" spirit:portRef="D1"/>
+        <spirit:internalPortReference spirit:componentRef="nand21_2" spirit:portRef="D0"/>
+      </spirit:adHocConnection>
+    </spirit:adHocConnections>
+  </spirit:design>
+
+</bd:repository>

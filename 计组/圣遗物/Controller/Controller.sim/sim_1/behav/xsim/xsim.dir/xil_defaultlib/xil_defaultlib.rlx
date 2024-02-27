@@ -1,0 +1,9 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/Desktop/experiment/Controller/Controller.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+D:/Desktop/experiment/Controller/Controller.srcs/sim_1/new/sim_Controller.v,1670830846,verilog,,,,sim_Controller,,,,,,,,
+D:/Desktop/experiment/Controller/Controller.srcs/sources_1/new/ALUDec.v,1670035952,verilog,,D:/Desktop/experiment/Controller/Controller.srcs/sources_1/new/Controller.v,,ALUDec,,,,,,,,
+D:/Desktop/experiment/Controller/Controller.srcs/sources_1/new/Controller.v,1670830508,verilog,,D:/Desktop/experiment/Controller/Controller.srcs/sources_1/new/MainDec.v,,Controller,,,,,,,,
+D:/Desktop/experiment/Controller/Controller.srcs/sources_1/new/MainDec.v,1670036195,verilog,,D:/Desktop/experiment/Controller/Controller.srcs/sim_1/new/sim_Controller.v,,MainDec,,,,,,,,
